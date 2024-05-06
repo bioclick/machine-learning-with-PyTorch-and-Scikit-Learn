@@ -26,3 +26,46 @@ We are using [this repo](https://github.com/rasbt/machine-learning-book) as our 
 17. [Chapter 17:](./chapters/17-GAN/ch17.ipynb) GAN
 18. [Chapter 18:](./chapters/18-GNN/ch18.ipynb) GNN
 19. [Chapter 19:](./chapters/19-RL/ch19.ipynb) RL
+
+## Installation
+For this project, we are using Ubuntu; thus, all the installation commands are ubuntu based. You can find the equivalant commands for Windows or MacOS if you prefer using those operating systems. 
+
+### First of all, install python if you do not have it already:
+```bash
+sudo apt update
+sudo apt install python3
+```
+
+### Next, is installing pip, a package manager for python libraries:
+```bash
+sudo apt install python3-pip
+```
+
+### Create Symbolic Links for python and pip (Optional)
+You can use symbolic links to change python3 to python, and pip3 to pip. The purpose is to make it easier to use.
+```bash
+sudo ln -s /usr/bin/python3 /usr/bin/python
+sudo ln -s /usr/bin/pip3 /usr/bin/pip
+```
+
+### Let's set up a virtual environment for our codes. Virtual environments help us to have an isolated workspace for each one of our projects. Follow the instructions below:
+
+Installation:
+```bash
+sudo apt install python3-venv
+```
+
+Creating an environment named myenv
+```bash
+python3 -m venv myenv
+```
+
+Then, we need to activate the environment we have created previously:
+```bash
+source myenv/bin/activate
+```
+
+Whenever you want to exit this environment, simply type this command to deactivate it:
+```bash
+deactivate
+```
