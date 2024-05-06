@@ -70,7 +70,7 @@ Whenever you want to exit this environment, simply type this command to deactiva
 deactivate
 ```
 
-### An alternative approach for environment management using conda & mamba (Optional)
+### An alternative approach for environment management using mamba (Optional)
 At first, we need to install Miniconda:
 ```bash
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
