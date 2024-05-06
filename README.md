@@ -55,7 +55,7 @@ Installation:
 sudo apt install python3-venv
 ```
 
-Creating an environment named myenv
+Creating an environment named myenv:
 ```bash
 python3 -m venv myenv
 ```
@@ -63,6 +63,53 @@ python3 -m venv myenv
 Then, we need to activate the environment we have created previously:
 ```bash
 source myenv/bin/activate
+```
+
+Whenever you want to exit this environment, simply type this command to deactivate it:
+```bash
+deactivate
+```
+
+### An alternative approach for environment management using conda & mamba (Optional)
+At first, we need to install Miniconda:
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+Make the installer executable:
+```bash
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+```
+
+Execute the installer:
+```bash
+./Miniconda3-latest-Linux-x86_64.sh
+```
+
+After the installation, execute this command to apply changes:
+```bash
+source ~/.bashrc
+```
+
+Install mamba:
+```bash
+conda install mamba -n base -c conda-forge
+```
+
+Create an environment using mamba:
+```bash
+mamba create -n myenv
+```
+
+Activate the environment we have created previously, but before that, execute these two commands:
+```bash
+mamba init
+source ~/.bashrc
+```
+
+Then, proceed with the activation:
+```bash
+mamba activate myenv
 ```
 
 Whenever you want to exit this environment, simply type this command to deactivate it:
