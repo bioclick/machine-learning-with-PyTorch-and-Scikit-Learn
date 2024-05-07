@@ -53,16 +53,16 @@ There are numerous Cross-Validation methods but one that is commonly used is K-f
 Different problems require different metrics for evaluation:
 
 - Classification
-- - Accuracy: Percentage of correctly classified instances.
-- - Precision: Correctly predicted positives out of all predicted positives.
-- - Recall: Correctly predicted positives out of all actual positives.
-- - F1-score: Harmonic mean of precision and recall.
-- - ROC-AUC: Area Under the ROC Curve, indicating model discrimination.
+  - Accuracy: Percentage of correctly classified instances.
+  - Precision: Correctly predicted positives out of all predicted positives.
+  - Recall: Correctly predicted positives out of all actual positives.
+  - F1-score: Harmonic mean of precision and recall.
+  - ROC-AUC: Area Under the ROC Curve, indicating model discrimination.
 
 - Regression
-- - Mean Squared Error (MSE): Average squared differences between predicted and actual values.
-- - Mean Absolute Error (MAE): Average absolute differences between predicted and actual values.
-- - R² (Coefficient of Determination): Proportion of variance explained by the model.
+  - Mean Squared Error (MSE): Average squared differences between predicted and actual values.
+  - Mean Absolute Error (MAE): Average absolute differences between predicted and actual values.
+  - R² (Coefficient of Determination): Proportion of variance explained by the model.
 
 
 ### 4. Overfitting and Underfitting
