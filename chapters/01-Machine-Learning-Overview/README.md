@@ -54,6 +54,7 @@ Sometimes, new features can be generated from existing ones. For example:
 
 ## Model Evaluation and Validation
 ![EV](../../assets/cross-validation.png)
+
 Evaluating and validating models is crucial to ensure they generalize well to unseen data. There are various methods for doing so:
 
 ### 1. Train-Test Split
