@@ -98,6 +98,8 @@ There are some well-known approaches that can be used to solve these issues:
 
 
 ## Ensemble Methods
+![EM](../../assets/ensemble.png)
+
 Ensemble methods combine multiple models to improve the overall performance. Below, we can review some of these methods:
 
 ### 1. Bagging
