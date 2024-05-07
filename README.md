@@ -116,3 +116,9 @@ Whenever you want to exit this environment, simply type this command to deactiva
 ```bash
 deactivate
 ```
+
+### Dependencies for ML projects
+There are some popular python packages that are commonly used when dealing with ML problems. The instruction for installing them is below:
+```bash
+pip install numpy scipy matplotlib scikit-learn pandas
+```
