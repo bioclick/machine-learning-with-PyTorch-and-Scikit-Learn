@@ -80,6 +80,8 @@ Different problems require different metrics for evaluation:
 
 
 ## Overfitting and Underfitting
+![EV](../../assets/fitting.png)
+
 Whenever these terms are used, it means there are issues with the model performance:
 
 ### 1. Overfitting
