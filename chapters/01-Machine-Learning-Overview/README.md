@@ -17,6 +17,7 @@ Moreover, there is another popular concept named, Deep learning. It employs neur
 
 
 ## Algorithms
+![NN](../../assets/algorithms.png)
 In machine learning, algorithms are often divided into three main categories: supervised, unsupervised, and reinforcement learning. 
 
 ### 1. Supervised Learning
