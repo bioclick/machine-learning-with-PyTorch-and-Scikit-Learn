@@ -6,6 +6,7 @@ Machine learning is a branch of artificial intelligence that focuses on creating
 
 ## Neural Networks
 ![NN](../../assets/neural-network-diagram.png)
+
 Comprise layers of interconnected nodes (neurons). Each layer transforms the input data through weights and activation functions. Basic layers include:
 
 - **Input Layer:** Receives data.
