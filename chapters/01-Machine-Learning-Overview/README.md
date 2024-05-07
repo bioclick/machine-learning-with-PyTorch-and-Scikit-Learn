@@ -18,7 +18,7 @@ In unsupervised learning, the model is given data without labeled outcomes. Inst
 In reinforcement learning, an agent learns by interacting with an environment and receiving rewards or penalties based on its actions. The goal is to maximize the cumulative reward over time. Unlike supervised learning, the agent is not given direct labels indicating the correct action to take. Instead, it must explore and discover which actions lead to the highest rewards. An example would be training a robot to navigate a maze, where it receives positive rewards for reaching the exit and penalties for hitting walls. Over time, it learns to navigate the maze effectively using this feedback.
 
 ### Summary:
-Supervised Learning: Uses labeled data, learns the relationship between inputs and known outputs (e.g., classification, regression).
-Unsupervised Learning: Uses unlabeled data, discovers hidden patterns or structures (e.g., clustering, dimensionality reduction).
-Reinforcement Learning: Learns by trial and error through rewards and penalties, aiming to maximize cumulative rewards.
+- Supervised Learning: Uses labeled data, learns the relationship between inputs and known outputs (e.g., classification, regression).
+- Unsupervised Learning: Uses unlabeled data, discovers hidden patterns or structures (e.g., clustering, dimensionality reduction).
+- Reinforcement Learning: Learns by trial and error through rewards and penalties, aiming to maximize cumulative rewards.
 
