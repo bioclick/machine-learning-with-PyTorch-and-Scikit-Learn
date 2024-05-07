@@ -53,7 +53,7 @@ There are numerous Cross-Validation methods but one that is commonly used is K-f
 Different problems require different metrics for evaluation:
 
 - Classification
-  - Accuracy: Percentage of correctly classified instances.
+  - **Accuracy**: Percentage of correctly classified instances.
   - Precision: Correctly predicted positives out of all predicted positives.
   - Recall: Correctly predicted positives out of all actual positives.
   - F1-score: Harmonic mean of precision and recall.
@@ -65,5 +65,17 @@ Different problems require different metrics for evaluation:
   - R² (Coefficient of Determination): Proportion of variance explained by the model.
 
 
-### 4. Overfitting and Underfitting
+## Overfitting and Underfitting
+Whenever these terms are used, it means there are issues with the model performance:
 
+### 1. Overfitting
+The model learns too much from training data, including noise and outliers, leading to poor generalization on new data. It often occurs due to high model complexity.
+
+### 2. Underfitting
+The model fails to capture patterns in training data, leading to poor performance even on the training set. This happens when the model is too simple.
+
+### Solutions
+There are some well-known approaches that can be used to solve these issues:
+- Cross-Validation: Ensures the model performs consistently across multiple data subsets.
+- Regularization: Adds penalties to complex models to prevent overfitting. L1 (Lasso) and L2 (Ridge) regularization are common.
+- Ensembling: Combines predictions from multiple models for better performance.
