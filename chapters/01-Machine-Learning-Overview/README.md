@@ -53,16 +53,16 @@ There are numerous Cross-Validation methods but one that is commonly used is K-f
 Different problems require different metrics for evaluation:
 
 - Classification
-  - **Accuracy**: Percentage of correctly classified instances.
-  - Precision: Correctly predicted positives out of all predicted positives.
-  - Recall: Correctly predicted positives out of all actual positives.
-  - F1-score: Harmonic mean of precision and recall.
-  - ROC-AUC: Area Under the ROC Curve, indicating model discrimination.
+  - **Accuracy:**: Percentage of correctly classified instances.
+  - **Precision:** Correctly predicted positives out of all predicted positives.
+  - **Recall:** Correctly predicted positives out of all actual positives.
+  - **F1-score:** Harmonic mean of precision and recall.
+  - **ROC-AUC:** Area Under the ROC Curve, indicating model discrimination.
 
 - Regression
-  - Mean Squared Error (MSE): Average squared differences between predicted and actual values.
-  - Mean Absolute Error (MAE): Average absolute differences between predicted and actual values.
-  - R² (Coefficient of Determination): Proportion of variance explained by the model.
+  - **Mean Squared Error (MSE):** Average squared differences between predicted and actual values.
+  - **Mean Absolute Error (MAE):** Average absolute differences between predicted and actual values.
+  - **R² (Coefficient of Determination):** Proportion of variance explained by the model.
 
 
 ## Overfitting and Underfitting
@@ -76,6 +76,6 @@ The model fails to capture patterns in training data, leading to poor performanc
 
 ### Solutions
 There are some well-known approaches that can be used to solve these issues:
-- Cross-Validation: Ensures the model performs consistently across multiple data subsets.
-- Regularization: Adds penalties to complex models to prevent overfitting. L1 (Lasso) and L2 (Ridge) regularization are common.
-- Ensembling: Combines predictions from multiple models for better performance.
+- **Cross-Validation:** Ensures the model performs consistently across multiple data subsets.
+- **Regularization:** Adds penalties to complex models to prevent overfitting. L1 (Lasso) and L2 (Ridge) regularization are common.
+- **Ensembling:** Combines predictions from multiple models for better performance.
