@@ -15,11 +15,10 @@ We have used the famous Iris dataset which is available [here](https://archive.i
 ## Adaptive Linear Neurons (Adaline)
 ![Ad](../../assets/Adaline.png)
 
-Adaptive Linear Neurons (Adaline) are a type of artificial neuron, often used in supervised learning for binary classification tasks. Adaline is similar to the perceptron in that it takes multiple input features, applies weights to them, sums them up, and passes the result through an activation function to produce an output. However, unlike the perceptron, Adaline's activation function is a linear function instead of a step function.
+<img src="../../assets/Adaline.png" alt="drawing" width="200"/>
 
-Adaline's key feature is its learning rule, which is based on the gradient descent optimization technique. This learning rule adjusts the weights iteratively to minimize a cost function, typically the sum of squared errors between the predicted outputs and the true targets. By continuously updating the weights based on the gradient of this cost function, Adaline aims to find the optimal weights that minimize prediction errors.
 
-Regarding convergence of learning, it's crucial for algorithms like Adaline to converge to a solution, meaning that the weights stabilize and no longer change significantly with further iterations. Convergence ensures that the algorithm has found the optimal or near-optimal weights that minimize the cost function. In the context of Adaline, convergence is achieved when the weights no longer change significantly across iterations, or when the cost function reaches a minimum value. Techniques like setting a maximum number of iterations or a threshold for the change in weights are often used to monitor convergence during training.
+Adaptive Linear Neurons (Adaline) are similar to perceptrons but use a linear activation function instead of a step function. They adjust their weights iteratively using the gradient descent algorithm to minimize a cost function, typically the sum of squared errors. Convergence in Adaline refers to the stabilization of weights, signifying that further iterations won't significantly change them. This ensures that Adaline finds optimal or near-optimal weights to minimize prediction errors.
 
 
 
