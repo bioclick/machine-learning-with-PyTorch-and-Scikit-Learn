@@ -9,7 +9,7 @@ We are using [this repo](https://github.com/rasbt/machine-learning-book) as our 
 ## Table of Contents
 1. [Chapter 1:](./chapters/01-Machine-Learning-Overview/README.md) Machine Learning Overview
 2. [Chapter 2:](./chapters/02-Training/README.md) Training
-3. [Chapter 3:](./chapters/03-Classifiers/README.md) Classifiers
+3. [Chapter 3:](./chapters/03-Classification/README.md) Classification
 4. [Chapter 4:](./chapters/04-Pre-Processing/README.md) Pre-Processing
 5. [Chapter 5:](./chapters/05-Data-Compression/README.md) Data Compression
 6. [Chapter 6:](./chapters/06-Model-Evaluation/README.md) Model Evaluation
