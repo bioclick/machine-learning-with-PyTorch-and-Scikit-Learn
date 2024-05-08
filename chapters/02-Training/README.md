@@ -15,10 +15,11 @@ We have used the famous Iris dataset which is available [here](https://archive.i
 ## Adaptive Linear Neurons (Adaline)
 ![Ad](../../assets/Adaline.png)
 
-<img src="../../assets/Adaline.png" alt="drawing" width="200"/>
-
-
 Adaptive Linear Neurons (Adaline) are similar to perceptrons but use a linear activation function instead of a step function. They adjust their weights iteratively using the gradient descent algorithm to minimize a cost function, typically the sum of squared errors. Convergence in Adaline refers to the stabilization of weights, signifying that further iterations won't significantly change them. This ensures that Adaline finds optimal or near-optimal weights to minimize prediction errors.
+
+Figure down here depicts the difference between perceptrons and Adaline:
+
+![PA](../../assets/perceptron_vs_Adaline.png)
 
 
 
