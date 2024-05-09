@@ -26,6 +26,6 @@ The dataset is typically split into training, validation, and testing sets to ev
 
 
 ## Dataset
-We have used the famous wine dataset which is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data). Here is a snippet of this dataset after loading it in a dataframe:
+We have used the famous wine dataset which is available [here](https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data). Here is a snippet of this dataset after loading it in a dataframe:
 
 ![WN](../../assets/wine.png)
