@@ -1,4 +1,6 @@
 # Chapter 4: Pre Processing
+
+## What is Preprocessing
 Preprocessing is a crucial step in machine learning pipelines that involves transforming raw data into a format suitable for modeling. It encompasses various techniques aimed at cleaning, transforming, and preparing the data to improve the performance and reliability of machine learning models.
 
 ## Techniques
