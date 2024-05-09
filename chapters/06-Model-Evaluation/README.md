@@ -27,10 +27,7 @@ Model evaluation is a critical step in machine learning that determines how well
 - $Specificity = \frac{TN}{TN + FP}$
 - $F1\ Score = \frac{2 \times Precision \times Recall}{Precision + Recall} = \frac{2 \times TP}{2 \times TP + FP + FN}$
 - AUC-ROC (Area Under the ROC Curve): Measures the ability of the model to distinguish between classes.
-- $\begin{bmatrix}
-  TP & FP \\
-  FN & TN
-\end{bmatrix}$
+- **Confusion Matrix:** Shows the count of actual vs. predicted classifications.
 
 **2. Regression Metrics**
 
