@@ -122,3 +122,7 @@ There are some popular python packages that are commonly used when dealing with 
 ```bash
 pip install numpy scipy matplotlib scikit-learn pandas
 ```
+Moreover, we are going to use [PyTorch](https://pytorch.org/) and some other related packages in this tutorial. You can install them by this command:
+```bash
+pip install torch torchvision
+```
