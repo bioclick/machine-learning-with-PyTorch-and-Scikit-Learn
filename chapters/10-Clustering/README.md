@@ -2,6 +2,7 @@
 
 ## What is Clustering
 ![CL](../../assets/clustering.png)
+
 Clustering is a type of unsupervised learning technique used in machine learning and data mining to group a set of objects in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups. It's mainly used for exploratory data analysis to find natural groupings in data, without any associated labels.
 
 ## Types of Clustering Techniques
