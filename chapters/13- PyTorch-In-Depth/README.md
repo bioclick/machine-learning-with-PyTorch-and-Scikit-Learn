@@ -20,7 +20,7 @@ PyTorch Lightning is a library that builds on PyTorch to make powerful AI resear
 PyTorch Ignite is a library that helps with writing compact but full-featured training loops for PyTorch deep learning models. It aims to help scientists and engineers develop more complex, innovative, and reliable training loops faster by reducing boilerplate code and providing helpful utilities.
 
 ## Dataset
-We used a dataset of cars for predicting the fuel efficiency of cars. A full documentation of this dataset can be found [here](http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data). Below, you can see a snippet of this dataset after loading it in a dataframe:
+We used a dataset of cars for predicting the fuel efficiency of cars. You can download this dataset from [here](http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data). Below, you can see a snippet of this dataset after loading it in a dataframe:
 
 ![here](../../assets/car.png)
 
