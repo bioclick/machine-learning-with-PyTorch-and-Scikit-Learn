@@ -22,7 +22,7 @@ We are using [this repo](https://github.com/rasbt/machine-learning-book) as our 
 13. [Chapter 13:](./chapters/13-PyTorch-In-Depth/README.md) PyTorch In-Depth
 14. [Chapter 14:](./chapters/14-CNN/README.md) CNN
 15. [Chapter 15:](./chapters/15-RNN/README.md) RNN
-16. [Chapter 16:](./chapters/16-NLP/README.md) NLP
+16. [Chapter 16:](./chapters/16-Transformers/README.md) Transformers
 17. [Chapter 17:](./chapters/17-GAN/README.md) GAN
 18. [Chapter 18:](./chapters/18-GNN/README.md) GNN
 19. [Chapter 19:](./chapters/19-RL/README.md) RL
