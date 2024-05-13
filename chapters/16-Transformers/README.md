@@ -1,6 +1,8 @@
 # Chapter 16: Transformers
 
 ## What are Transformers
+![TR](../../assets/transformer.png)
+
 Transformers are a groundbreaking architecture in machine learning that have revolutionized the way that models handle tasks involving sequences of data, particularly in the field of natural language processing (NLP). Snce 2017, transformers have become the backbone for many state-of-the-art NLP models, including BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pre-trained Transformer), and many others.
 
 ## Components
